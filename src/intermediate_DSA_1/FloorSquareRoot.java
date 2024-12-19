@@ -19,14 +19,11 @@ public class FloorSquareRoot {
             if(i*i<=num){
                 i++;
             }
-            else{
-                break;
-            }
 
         }
 
         System.out.println("Answer is:"+(i-1));
-        //iterations (N+1)
+        //iterations (root(N)+1)
     }
 
 }
